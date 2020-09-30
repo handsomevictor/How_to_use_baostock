@@ -74,7 +74,7 @@ dfreg['PCT_change'] = (df['Close'] - df['Open']) / df['Open'] * 100.0
 
 
 # 预处理和交叉验证
-# it's copied!!!!!!!!!!!!!!!!!!!
+# the following is copied!
 # Drop missing value
 dfreg.fillna(value=-99999, inplace=True)
 # We want to separate 1 percent of the data to forecast
